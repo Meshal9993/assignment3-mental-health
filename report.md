@@ -1,78 +1,66 @@
-# Mental Health Skills App — Part 3.1
+ Mental Health Skills App — Part 3.1
 
-## Repository and commit
+ Repository and commit
 
-Repository: [ADD GITHUB REPOSITORY URL]
+Repository: https://github.com/Meshal9993/assignment3-mental-health
 
-Part 3.1 commit: **ADD FINAL COMMIT HASH**
+Part 3.1 commit: b8630c8526da5c6f5c60eb6f36d4c7b3212edaae
 
-## Proposed design
+ Implementation
 
-I chose Paced Breathing (4–6) for a fictional user who wants a short exercise
-with little reading or typing. The user inhales for 4 seconds and exhales for
-6 seconds. Six cycles take about 60 seconds total.
+For Part 3.1, I designed a mental health skills application using Paced Breathing (4–6).
 
-Flow: Entry → Start → Inhale → Exhale → repeat six cycles → Finish.
+The user inhales for 4 seconds and exhales for 6 seconds. The exercise uses six cycles, so it takes about 60 seconds. I chose this design because it is short and does not require much reading or typing.
 
-The proposed design keeps Stop available during the exercise and
-Crisis/Support visible throughout. This is a fictional coursework prototype,
-not a real mental health support service.
+The main flow is:
 
-## Research and design decisions
+Entry → Start → Inhale → Exhale → repeat six cycles → Finish
 
-- **R1:** About 60 seconds keeps the exercise under the 90-second limit.
-- **R2:** Support access is easy to reach.
-- **R3:** Stop remains available during the exercise.
-- **R4:** The user controls starting, stopping, repeating, and leaving.
-- **D1:** The exercise interface stays simple.
-- **D2:** It shows one breathing action at a time.
-- **D3:** It needs little reading and no required typing during the exercise.
-- **D4:** Support stays visible.
-- **D5:** Later personalization may offer a recent skill without removing choice.
-- **D6:** The wording stays simple, neutral, and non-judgmental.
+Stop stays available during the exercise, and Crisis/Support stays visible. The user can stop, leave, repeat, or go back by choice.
 
-The Entry baseline had more introductory text and a smaller Start button. The
-Entry alternative shortened the text and made Start larger. I selected
-**Entry — alternative** because it reduces reading effort (D3) and makes the
-user's choice to start easier to find (R4). The tradeoff is less explanation
-before starting, but an easier main action.
+The application will control the timer, breathing sequence, Stop button, and support route. The model will not change the breathing steps or create therapeutic advice. Later, the model may give a short neutral introduction or use saved history.
 
-## Model, saved data, and personalization
+The proposed saved data includes session ID, skill name, start time, duration, completed or stopped status, optional conversation messages, and a recent skill preference.
 
-The application will control the timer, breathing sequence, Stop, and support
-route. The model cannot change the breathing steps or create therapeutic
-advice. Later, it may give a short neutral introduction or use saved history.
+  Verification
 
-Proposed saved data:
+I reviewed the design using the Assignment 3 research findings.
 
-- Session ID
-- Skill name
-- Start time
-- Duration
-- Completed or stopped status
-- Optional conversation messages
-- Recent skill preference
+R1 supports keeping the exercise short, so I designed it for about 60 seconds.
 
-Later, the app may offer “Use my recent skill.” The user can ignore or change
-it. Clicks will not be used to infer an emotional state or diagnosis.
+R2 and D4 support keeping Crisis/Support easy to reach and visible.
 
-## Design evidence
+R3 supports keeping Stop available during the exercise.
 
+R4 supports letting the user choose when to start, stop, repeat, or leave.
+
+D1 and D2 support a simple interface that shows one breathing action at a time.
+
+D3 supports using little reading and no required typing during the exercise.
+
+D5 supports light personalization, such as offering a recent skill, without removing the user's choice.
+
+D6 supports simple, neutral, and non-judgmental wording.
+
+I also compared two Entry screen designs in Figma. The baseline had more text and a smaller Start button. The alternative used less text and a larger Start button. I selected the alternative because it reduces reading effort and makes the Start action easier to find.
+
+Figma file: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K
+
+Entry — baseline: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-21
+
+Entry — alternative: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=5-20
+
+Breathing — baseline: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-22
+
+Finish — baseline: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-23
+
+  Project context and next steps
+
+Project files:
+
+- [README](README.md)
+- [AGENTS](AGENTS.md)
 - [Design pipeline](docs/design-pipeline.md)
 - [Interface sketch](docs/interface-sketch.md)
-- [Figma file](https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K)
-- [Entry — baseline](https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-21)
-- [Entry — alternative](https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=5-20)
-- [Breathing — baseline](https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-22)
-- [Finish — baseline](https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id=2-23)
 
-The working application has not been built yet because Part 3.1 is a research
-and design milestone.
-
-## Open questions
-
-- What exact support information should the working version show?
-- Should the breathing cue use text, a circle, or both?
-- How should reduced-motion mode show the pace?
-- How much saved history should be shown?
-- What exact role should the model introduction have?
+One limitation is that Part 3.1 is only the research and design stage, so the working application has not been built yet.
