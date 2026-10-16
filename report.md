@@ -14,7 +14,7 @@ The user inhales for 4 seconds and exhales for 6 seconds. The exercise uses six 
 
 The main flow is:
 
-Entry → Start → Inhale → Exhale → repeat six cycles → Finish
+Entry - Start - Inhale - Exhale - repeat six cycles - Finish
 
 Stop stays available during the exercise, and Crisis/Support stays visible. The user can stop, leave, repeat, or go back by choice.
 
@@ -58,9 +58,9 @@ Finish — baseline: https://www.figma.com/design/ai95GsZjmQHWntHR9kt85K?node-id
 
 Project files:
 
-- [README](README.md)
-- [AGENTS](AGENTS.md)
-- [Design pipeline](docs/design-pipeline.md)
-- [Interface sketch](docs/interface-sketch.md)
+ [README](README.md)
+ [AGENTS](AGENTS.md)
+ [Design pipeline](docs/design-pipeline.md)
+ [Interface sketch](docs/interface-sketch.md)
 
 One limitation is that Part 3.1 is only the research and design stage, so the working application has not been built yet.
