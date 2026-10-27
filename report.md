@@ -2,9 +2,9 @@ Assignment 3 — Part 3.2: Working Application and Safety
 1. Repository Information
 GitHub Repository: https://github.com/Meshal9993/assignment3-mental-health
 
-Part 3.2 Branch: part3-2 (to be restored on GitHub)
+Part 3.2 Branch: https://github.com/Meshal9993/assignment3-mental-health/tree/part3-2
 
-Submitted Commit: To be updated after the final project and report are uploaded.
+Application and Testing Commit: e2e8454372d1b5150b85a722a2a0d8edaa2ab6c1
 2. Application Overview
 In Part 3.2, I developed a mental health skills application using Vue, FastAPI, and SQLite. The main goal was to build a working application where users can practice a short breathing exercise.
 
@@ -51,7 +51,7 @@ The project is still a local prototype. Testing on another computer, with screen
 
 For Part 3.3, I plan to continue evaluating the application with more fictional scenarios and prepare the final demonstration. This report covers Part 3.2 only.
 8. Verification Evidence
-The following paths refer to evidence produced during Part 3.2. After restoring the part3-2 branch on GitHub, confirm that each link opens before submitting this report.
+The following paths refer to evidence produced during Part 3.2. The following links provide evidence from Part 3.2, including the live Text Chat conversation, SQLite records, completed breathing exercise, and safety testing.
 
 Live Text Chat Screenshot:
 https://github.com/Meshal9993/assignment3-mental-health/blob/part3-2/docs/evidence/part3-2-live-text-chat.jpg
