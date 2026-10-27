@@ -552,3 +552,35 @@ its relative link above. The earlier SHA-pinned publication-check JSON remains
 a historical record of URLs checked before removal. Failure behavior remains
 documented by existing test logs and SQLite evidence. No application code or
 report content changed.
+
+### Part 3.2 report review — October 26, 2026
+
+The user explicitly authorized replacing `report.md` using their supplied
+nine-section draft. Preserved `docs/part3-1-report.md` was compared with
+`2773f8555f788d2bcc1792efe899b76f4b22d7bc:report.md`; both have Git blob
+`04f03a147649ded9fdb7837e96e00847beb71261`. It remains unchanged.
+
+Reviewed the draft against model/controller/UI code, design notes, verification
+logs and the actual saved records. Corrected the application/evidence commit to
+`a72120dc513ba3da83b3aacf344b93b2ccf4353f`, clarified reviewed answer selection,
+mock versus live checks, page-exit limits, backend-off Start behavior and the
+research-label mapping. The report does not link the removed failure screenshot
+or claim live voice, broader model evaluation, a recording or a clean-checkout
+run on another laptop.
+
+Python standard-library requests without credentials checked all 17 existing
+report URLs: HTTP 200. The 15 SHA-pinned raw files matched the reviewed local
+bytes. Read-only SQLite (`mode=ro`, `PRAGMA query_only=ON`) matched the selected
+live messages/retrieval, saved exercise sessions and earlier mocked failure
+messages. Existing logs support 51 backend, 33 controller mocks, six browser
+mocks and a successful production build. These suites were not rerun for the
+documentation-only change. No provider or microphone request was made.
+
+Exact pre-publication results are in
+[report review evidence](evidence/part3-2-report-review.json). The two links using
+the new `part3-2-submission` tag are intentionally recorded as awaiting the tag
+push; they must be verified afterward. The tag will identify the final report
+commit without embedding a circular self-hash. Only the existing `part3-2`
+branch is used. Earlier local history is preserved in ignored
+`work/part3-2-before-report.bundle`; main is not a push target. Canvas submission
+is left to the user. This is Part 3.2 documentation work only.

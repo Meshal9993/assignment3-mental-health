@@ -1,15 +1,17 @@
 # Current state — Part 3.2, October 26, 2026
 
 Project: `/Users/alqufaidi/Downloads/assignment3-mental-health-main`.
-Working branch: `part3-2`. The original download had no Git history; earlier
-local checkpoints preserve its design baseline. The public target is
+Working branch: `part3-2`, now tracking `origin/part3-2`. The original download
+had separate local history, preserved in ignored `work/part3-2-before-report.bundle`
+before a non-destructive alignment to the published branch. The public target is
 `https://github.com/Meshal9993/assignment3-mental-health`, whose existing main
 head is `2773f8555f788d2bcc1792efe899b76f4b22d7bc`.
 
-User scope: finish Part 3.2 only, verify one live Text Chat exchange, inspect
-SQLite, collect evidence, commit/publish and check accessible links. Do not
-create, edit or update `report.md`; the user will write it. Do not develop
-Part 3.3. Preserve report bytes locally and its existing version remotely.
+Current user scope: prepare and publish the Part 3.2 report using their supplied
+nine-section draft, correct claims, simplify English, verify evidence links and
+preserve the original Part 3.1 report. This explicitly supersedes their earlier
+instruction to leave report.md unchanged. Work only on `part3-2`; leave main
+unchanged, do not develop Part 3.3 and do not submit to Canvas.
 
 Implemented core: Vue Paced Breathing with six 4-second inhale/6-second exhale
 cycles, application-owned timing and Stop, interruption/save recovery, independent
@@ -51,13 +53,11 @@ read-only reinspection and the history API still matched the fictional live
 request; all seven earlier exercise records matched their evidence. Results:
 `docs/evidence/part3-2-publication-check.json` and `docs/verification.md`.
 
-Local report bytes and the report blob on remote main/Part 3.2 are unchanged;
-do not stage, edit, restore, or delete the user's report. The original working
-branch/history remains intact. Publication uses the separate
-`codex/part3-2-publication` ref and normal pushes, retaining remote main as
-ancestor. A documentation-only follow-up records the successful checks. Use
-`git ls-remote origin refs/heads/part3-2` for its final hash. The user writes
-the submission report. Do not start Part 3.3 or another paid test.
+The original Part 3.1 report in `docs/part3-1-report.md` exactly matches main's
+report blob `04f03a147649ded9fdb7837e96e00847beb71261`; keep that copy unchanged.
+The earlier separate publication ref was used before the report task. The
+current report task uses `part3-2` directly and normal pushes. Main remains
+`2773f8555f788d2bcc1792efe899b76f4b22d7bc`.
 
 User-selected evidence update: added the supplied
 `docs/evidence/part3-2-live-exam-chat.png` after explicit confirmation that its
@@ -66,3 +66,18 @@ and updated its relative verification link. The original Stop exchange's
 screenshot/SQLite proof and failure test/database records are retained.
 Historical SHA-pinned URL-check evidence describes the earlier snapshot.
 No app code, paid call, or report change was needed.
+
+Report prepared from the user-provided text, retaining its nine sections.
+Application/evidence commit is `a72120dc513ba3da83b3aacf344b93b2ccf4353f`.
+The final report uses stable tag `part3-2-submission` to identify its containing
+commit without a circular hash edit. The tag did not previously exist; create
+it once on the report commit and push it with only `part3-2`. Verify both tag
+links, the raw report bytes, branch/tag SHA equality and unchanged main after
+publication; give the full report commit hash to the user. Never move an
+existing submission tag or claim an unperformed check passed.
+
+Pre-publication review: 17 existing report URLs returned 200, 15 raw files
+matched local bytes, and selected read-only SQLite records still matched the
+evidence. See `docs/evidence/part3-2-report-review.json`. Existing test results
+were reviewed, not rerun. No application change, installation or model call.
+The user uploads report.md to Canvas; no Canvas action is authorized.

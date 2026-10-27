@@ -136,3 +136,15 @@ removed the selected model-failure screenshot. Updated verification/handoff
 references while retaining the matching original Stop-question SQLite proof.
 No generated replacement image, application-code change, paid call or report
 edit was involved.
+
+Report preparation: at the user's new explicit request, used their pasted
+nine-section Part 3.2 report as the main draft. Simplified English, corrected
+the submitted application/evidence version, explained reviewed model selection,
+distinguished mocks from the verified live exchange, and narrowed claims about
+failure, interruption, research findings and untested voice. Verified the
+original Part 3.1 report was already preserved byte-for-byte. Checked 17 existing
+report URLs anonymously, compared 15 raw files and reinspected selected SQLite
+records read-only. Added factual review evidence and a stable final-report tag
+reference to avoid a circular commit hash. Preserved the supplied draft and
+previous local history in ignored work/. No paid call, application-code change,
+Part 3.3 work or Canvas submission was involved.
