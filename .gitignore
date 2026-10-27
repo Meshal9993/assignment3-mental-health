@@ -5,3 +5,8 @@ node_modules/
 dist/
 __pycache__/
 .DS_Store
+work/
+.pnpm-store/
+.env
+.env.*
+!.env.example

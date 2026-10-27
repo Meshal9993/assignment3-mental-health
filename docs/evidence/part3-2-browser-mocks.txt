@@ -1,0 +1,14 @@
+✔ missing voice configuration leaves microphone untouched and text chat usable (2916.22275ms)
+✔ microphone denial leaves text chat usable without a session request (1639.7715ms)
+✔ offer and answer apply before session.started changes the interface to Active (353.330792ms)
+✔ Mute and Unmute preserve playback and the session; End releases microphone and transports (442.468375ms)
+✔ provider setup failure releases capture and a subsequent text message gets a reply (387.043625ms)
+✔ independent support opens after provider failure (388.781958ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6335.612542

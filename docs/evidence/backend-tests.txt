@@ -1,0 +1,26 @@
+/Users/alqufaidi/Downloads/assignment3-mental-health-main/backend/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_01_intro_and_actual_reply_persist (backend.test_app.ApplicationChecks.test_01_intro_and_actual_reply_persist) ... ok
+test_02_request_failure_saved (backend.test_app.ApplicationChecks.test_02_request_failure_saved) ... ok
+test_03_crisis_bypasses_provider_and_failure (backend.test_app.ApplicationChecks.test_03_crisis_bypasses_provider_and_failure) ... ok
+test_04_stop_persists (backend.test_app.ApplicationChecks.test_04_stop_persists) ... ok
+test_05_leave_persists (backend.test_app.ApplicationChecks.test_05_leave_persists) ... ok
+test_06_duplicate_finish_is_idempotent (backend.test_app.ApplicationChecks.test_06_duplicate_finish_is_idempotent) ... ok
+test_07_early_completion_rejected (backend.test_app.ApplicationChecks.test_07_early_completion_rejected) ... ok
+test_08_completion_time_contract_synthetic (backend.test_app.ApplicationChecks.test_08_completion_time_contract_synthetic) ... ok
+test_09_sql_injection_and_scope (backend.test_app.ApplicationChecks.test_09_sql_injection_and_scope) ... ok
+test_10_untrusted_model_sql_rejected (backend.test_app.ApplicationChecks.test_10_untrusted_model_sql_rejected) ... ok
+test_11_preference_round_trip (backend.test_app.ApplicationChecks.test_11_preference_round_trip) ... ok
+test_12_duplicate_start_rejected (backend.test_app.ApplicationChecks.test_12_duplicate_start_rejected) ... ok
+test_13_empty_question_and_unknown_conversation (backend.test_app.ApplicationChecks.test_13_empty_question_and_unknown_conversation) ... ok
+test_14_restart_marks_unknown_duration (backend.test_app.ApplicationChecks.test_14_restart_marks_unknown_duration) ... ok
+test_15_no_live_calls_in_mock_mode (backend.test_app.ApplicationChecks.test_15_no_live_calls_in_mock_mode) ... ok
+test_16_late_completion_is_interrupted (backend.test_app.ApplicationChecks.test_16_late_completion_is_interrupted) ... ok
+test_17_live_provider_error_uses_saved_fallback (backend.test_app.ApplicationChecks.test_17_live_provider_error_uses_saved_fallback) ... ok
+test_18_live_unreviewed_output_rejected (backend.test_app.ApplicationChecks.test_18_live_unreviewed_output_rejected) ... ok
+test_19_clock_rounding_tolerance (backend.test_app.ApplicationChecks.test_19_clock_rounding_tolerance) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.106s
+
+OK

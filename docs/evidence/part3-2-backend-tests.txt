@@ -1,0 +1,58 @@
+/Users/alqufaidi/Downloads/assignment3-mental-health-main/backend/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_01_intro_and_actual_reply_persist (backend.test_app.ApplicationChecks.test_01_intro_and_actual_reply_persist) ... ok
+test_02_request_failure_saved (backend.test_app.ApplicationChecks.test_02_request_failure_saved) ... ok
+test_03_crisis_bypasses_provider_and_failure (backend.test_app.ApplicationChecks.test_03_crisis_bypasses_provider_and_failure) ... ok
+test_04_stop_persists (backend.test_app.ApplicationChecks.test_04_stop_persists) ... ok
+test_05_leave_persists (backend.test_app.ApplicationChecks.test_05_leave_persists) ... ok
+test_06_duplicate_finish_is_idempotent (backend.test_app.ApplicationChecks.test_06_duplicate_finish_is_idempotent) ... ok
+test_07_early_completion_rejected (backend.test_app.ApplicationChecks.test_07_early_completion_rejected) ... ok
+test_08_completion_time_contract_synthetic (backend.test_app.ApplicationChecks.test_08_completion_time_contract_synthetic) ... ok
+test_09_sql_injection_and_scope (backend.test_app.ApplicationChecks.test_09_sql_injection_and_scope) ... ok
+test_10_untrusted_model_sql_rejected (backend.test_app.ApplicationChecks.test_10_untrusted_model_sql_rejected) ... ok
+test_11_preference_round_trip (backend.test_app.ApplicationChecks.test_11_preference_round_trip) ... ok
+test_12_duplicate_start_rejected (backend.test_app.ApplicationChecks.test_12_duplicate_start_rejected) ... ok
+test_13_empty_question_and_unknown_conversation (backend.test_app.ApplicationChecks.test_13_empty_question_and_unknown_conversation) ... ok
+test_14_restart_marks_unknown_duration (backend.test_app.ApplicationChecks.test_14_restart_marks_unknown_duration) ... ok
+test_15_no_live_calls_in_mock_mode (backend.test_app.ApplicationChecks.test_15_no_live_calls_in_mock_mode) ... ok
+test_16_late_completion_is_interrupted (backend.test_app.ApplicationChecks.test_16_late_completion_is_interrupted) ... ok
+test_17_live_provider_error_uses_saved_fallback (backend.test_app.ApplicationChecks.test_17_live_provider_error_uses_saved_fallback) ... ok
+test_18_live_unreviewed_output_rejected (backend.test_app.ApplicationChecks.test_18_live_unreviewed_output_rejected) ... ok
+test_19_clock_rounding_tolerance (backend.test_app.ApplicationChecks.test_19_clock_rounding_tolerance) ... ok
+test_backend_model_is_read_only_from_server_environment (backend.test_voice.VoiceChecks.test_backend_model_is_read_only_from_server_environment) ... ok
+test_body_limit_applies_without_content_length (backend.test_voice.VoiceChecks.test_body_limit_applies_without_content_length) ... ok
+test_browser_policy_and_unneeded_identity_fields_are_rejected (backend.test_voice.VoiceChecks.test_browser_policy_and_unneeded_identity_fields_are_rejected) ... ok
+test_budget_exhaustion_never_calls_provider (backend.test_voice.VoiceChecks.test_budget_exhaustion_never_calls_provider) ... ok
+test_config_reports_only_status_and_duration (backend.test_voice.VoiceChecks.test_config_reports_only_status_and_duration) ... ok
+test_failed_attempt_still_reserves_shared_budget (backend.test_voice.VoiceChecks.test_failed_attempt_still_reserves_shared_budget) ... ok
+test_invalid_json_and_content_type_are_sanitized (backend.test_voice.VoiceChecks.test_invalid_json_and_content_type_are_sanitized) ... ok
+test_invalid_sdp_never_calls_provider (backend.test_voice.VoiceChecks.test_invalid_sdp_never_calls_provider) ... ok
+test_invalid_server_settings_disable_voice (backend.test_voice.VoiceChecks.test_invalid_server_settings_disable_voice) ... ok
+test_malformed_provider_responses_are_rejected (backend.test_voice.VoiceChecks.test_malformed_provider_responses_are_rejected) ... ok
+test_missing_or_disabled_configuration_never_calls_provider (backend.test_voice.VoiceChecks.test_missing_or_disabled_configuration_never_calls_provider) ... ok
+test_non_json_and_oversized_provider_responses_are_rejected (backend.test_voice.VoiceChecks.test_non_json_and_oversized_provider_responses_are_rejected) ... ok
+test_oversized_sdp_and_multibyte_sdp_are_rejected (backend.test_voice.VoiceChecks.test_oversized_sdp_and_multibyte_sdp_are_rejected) ... ok
+test_provider_http_errors_and_redirects_are_not_retried_or_exposed (backend.test_voice.VoiceChecks.test_provider_http_errors_and_redirects_are_not_retried_or_exposed) ... ok
+test_provider_network_error_is_sanitized (backend.test_voice.VoiceChecks.test_provider_network_error_is_sanitized) ... ok
+test_provider_phase_timeout_is_sanitized (backend.test_voice.VoiceChecks.test_provider_phase_timeout_is_sanitized) ... ok
+test_query_configuration_is_rejected (backend.test_voice.VoiceChecks.test_query_configuration_is_rejected) ... ok
+test_real_client_factory_has_explicit_safe_transport_settings (backend.test_voice.VoiceChecks.test_real_client_factory_has_explicit_safe_transport_settings) ... ok
+test_server_duration_setting_is_used_without_exposing_models (backend.test_voice.VoiceChecks.test_server_duration_setting_is_used_without_exposing_models) ... ok
+test_timeout_is_finite_and_not_retried (backend.test_voice.VoiceChecks.test_timeout_is_finite_and_not_retried) ... ok
+test_valid_session_uses_only_server_policy_and_returns_projection (backend.test_voice.VoiceChecks.test_valid_session_uses_only_server_policy_and_returns_projection) ... ok
+test_voice_setup_does_not_save_audio_or_transcripts (backend.test_voice.VoiceChecks.test_voice_setup_does_not_save_audio_or_transcripts) ... ok
+test_aborted_http_request_keeps_creation_observed_for_cleanup (backend.test_voice_cleanup.CancellationChecks.test_aborted_http_request_keeps_creation_observed_for_cleanup) ... ok
+test_cancel_before_create_prevents_a_provider_session (backend.test_voice_cleanup.CancellationChecks.test_cancel_before_create_prevents_a_provider_session) ... ok
+test_close_failure_is_unconfirmed_and_not_retried (backend.test_voice_cleanup.CancellationChecks.test_close_failure_is_unconfirmed_and_not_retried) ... ok
+test_disconnected_creation_still_closes_when_provider_finishes (backend.test_voice_cleanup.CancellationChecks.test_disconnected_creation_still_closes_when_provider_finishes) ... ok
+test_duplicate_creation_and_repeated_end_are_idempotent (backend.test_voice_cleanup.CancellationChecks.test_duplicate_creation_and_repeated_end_are_idempotent) ... ok
+test_invalid_attempt_ids_never_reach_a_provider (backend.test_voice_cleanup.CancellationChecks.test_invalid_attempt_ids_never_reach_a_provider) ... ok
+test_late_created_session_is_closed_after_end_without_returning_sdp (backend.test_voice_cleanup.CancellationChecks.test_late_created_session_is_closed_after_end_without_returning_sdp) ... ok
+test_only_close_is_sent_and_media_events_are_not_saved (backend.test_voice_cleanup.SidebandChecks.test_only_close_is_sent_and_media_events_are_not_saved) ... ok
+test_sideband_credentials_stay_server_owned (backend.test_voice_cleanup.SidebandChecks.test_sideband_credentials_stay_server_owned) ... ok
+test_sideband_deadline_and_errors_report_unconfirmed (backend.test_voice_cleanup.SidebandChecks.test_sideband_deadline_and_errors_report_unconfirmed) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.301s
+
+OK

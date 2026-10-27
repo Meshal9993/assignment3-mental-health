@@ -1,0 +1,133 @@
+{
+  "sessions": [
+    {
+      "id": "6cb5f68e-5391-41a3-bfdd-24ccfa8c7444",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:10:39.283800+00:00",
+      "end_time": "2026-10-22T18:11:05.919532+00:00",
+      "duration_ms": 26636,
+      "status": "interrupted",
+      "reason": "page_hidden",
+      "client_duration_ms": 26600
+    },
+    {
+      "id": "136786b3-69e8-44ca-9d23-cfd7bf5f2052",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:11:59.261483+00:00",
+      "end_time": "2026-10-22T18:12:35.860094+00:00",
+      "duration_ms": 36599,
+      "status": "stopped",
+      "reason": "stop",
+      "client_duration_ms": 36589
+    },
+    {
+      "id": "9eeb3c7a-6a67-4b5e-9184-ad95163eee21",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:13:46.977885+00:00",
+      "end_time": "2026-10-22T18:13:50.791342+00:00",
+      "duration_ms": 3813,
+      "status": "stopped",
+      "reason": "stop",
+      "client_duration_ms": 3804
+    },
+    {
+      "id": "925cee3b-bd8a-4d66-b46f-f8e7469d8f5f",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:13:58.229364+00:00",
+      "end_time": "2026-10-22T18:14:03.488861+00:00",
+      "duration_ms": 5259,
+      "status": "stopped",
+      "reason": "stop",
+      "client_duration_ms": 5242
+    },
+    {
+      "id": "33fe34ed-8e49-4f19-863b-e38bfe46aae6",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:14:18.607937+00:00",
+      "end_time": "2026-10-22T18:14:33.606694+00:00",
+      "duration_ms": 14999,
+      "status": "stopped",
+      "reason": "stop",
+      "client_duration_ms": 14990
+    },
+    {
+      "id": "708116ff-5725-42b7-8a54-593742fc58c7",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:18:07.143530+00:00",
+      "end_time": null,
+      "duration_ms": null,
+      "status": "interrupted",
+      "reason": "server_restart",
+      "client_duration_ms": null
+    },
+    {
+      "id": "6b544f67-4d98-4aea-9e86-435fe57da550",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "skill_name": "Paced Breathing (4–6)",
+      "start_time": "2026-10-22T18:20:46.549348+00:00",
+      "end_time": "2026-10-22T18:21:46.563710+00:00",
+      "duration_ms": 60014,
+      "status": "completed",
+      "reason": "finished",
+      "client_duration_ms": 60001
+    }
+  ],
+  "messages": [
+    {
+      "id": "14d461a3-0fdb-4e41-a486-c9856493bfbd",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "4d980054-14dd-4456-8558-edcbc6eb3d08",
+      "role": "user",
+      "content": "Fictional demo: How does Stop work?",
+      "created_at": "2026-10-22T18:11:42.251013+00:00",
+      "status": "succeeded",
+      "source": "mock"
+    },
+    {
+      "id": "2f4b19d7-a939-4484-94f2-65f9c2af96e6",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "4d980054-14dd-4456-8558-edcbc6eb3d08",
+      "role": "assistant",
+      "content": "Start begins the exercise. Stop ends it immediately. Repeat starts a new session only when you choose it.",
+      "created_at": "2026-10-22T18:11:42.253078+00:00",
+      "status": "succeeded",
+      "source": "mock"
+    },
+    {
+      "id": "b0c26f28-6b97-4090-a9e7-3d09468a9acc",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "b20b098c-f408-41cd-8797-96501e282d77",
+      "role": "user",
+      "content": "Fictional demo: introduce this exercise",
+      "created_at": "2026-10-22T18:11:45.650510+00:00",
+      "status": "failed",
+      "source": "mock"
+    },
+    {
+      "id": "246c42cf-ac0d-46a6-b53a-d5417eba3fad",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "b20b098c-f408-41cd-8797-96501e282d77",
+      "role": "assistant",
+      "content": "The model request failed. You can still start the exercise or open Crisis / Support. Your submitted message was saved.",
+      "created_at": "2026-10-22T18:11:45.651741+00:00",
+      "status": "failed",
+      "source": "static_fallback"
+    }
+  ],
+  "retrievals": [
+    {
+      "request_id": "4d980054-14dd-4456-8558-edcbc6eb3d08",
+      "proposed_sql": "SELECT skill_name, status, duration_ms FROM sessions WHERE conversation_id = ? ORDER BY start_time DESC LIMIT 3",
+      "status": "accepted",
+      "row_count": 1
+    }
+  ],
+  "preferences": [],
+  "model_calls": []
+}

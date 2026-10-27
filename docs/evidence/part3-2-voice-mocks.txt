@@ -1,0 +1,41 @@
+✔ unconfigured voice cannot open the microphone or create a session (0.711041ms)
+✔ permission denial preserves a usable error without a provider request (0.197625ms)
+✔ late microphone permission after cancellation stops the returned tracks (0.133833ms)
+✔ only SDP is posted and lifecycle events control readiness (0.733292ms)
+✔ provider setup failure closes resources and does not retry (0.204208ms)
+✔ dispose is idempotent and clears playback (0.454041ms)
+✔ stale session response after cancellation cannot reopen the peer (0.115333ms)
+✔ malformed session response closes capture (0.091209ms)
+✔ blocked playback exposes a manual play option (0.12175ms)
+✔ duration limit stops capture and sends graceful close (281.348333ms)
+✔ configuration discovery does not request permission; start shows permission (0.2ms)
+✔ channel precedes offer, ICE completes before POST, answer does not mean Active (0.280084ms)
+✔ mute disables microphone tracks and unmute restores them only when active (0.127875ms)
+✔ Enable assistant audio retries play and keeps the action after another rejection (0.137834ms)
+✔ remote SDP failure releases capture and remains retryable (0.100084ms)
+✔ connection failure after mute closes resources without retry (0.069209ms)
+✔ configuration refresh cannot overwrite an active session (0.075542ms)
+✔ duplicate Start creates only one permission request and one provider attempt (0.080166ms)
+✔ repeated End stops tracks immediately, sends one close, and tears down once (0.064041ms)
+✔ End deadline releases transports and requests server closure if no final event arrives (15.717917ms)
+✔ late SDP after End is cancelled server-side without applying its answer or restoring Active (16.25675ms)
+✔ a new conversation uses a fresh attempt and fresh setup, without history payloads (0.317ms)
+✔ late SDP and close acknowledgement from an ended conversation cannot affect fresh resources (17.180333ms)
+✔ cleanup on pagehide stops capture, playback and transports (0.206917ms)
+✔ cleanup on beforeunload stops capture, playback and transports (0.057083ms)
+✔ cleanup on popstate stops capture, playback and transports (0.0575ms)
+✔ cleanup on hashchange stops capture, playback and transports (0.045333ms)
+✔ cleanup on navigate stops capture, playback and transports (0.046167ms)
+✔ cleanup on hidden stops capture, playback and transports (0.049667ms)
+✔ cleanup on unmount stops capture, playback and transports (0.038833ms)
+✔ crisis_support disposes voice without blocking the independent action (0.047ms)
+✔ exercise_start disposes voice without blocking the independent action (0.031791ms)
+✔ chat_collapse disposes voice without blocking the independent action (0.036ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 370.575667

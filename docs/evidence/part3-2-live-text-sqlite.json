@@ -1,0 +1,76 @@
+{
+  "milestone": "Part 3.2",
+  "captured_at_utc": "2026-10-27T02:02:06.927948+00:00",
+  "test_type": "real live Text Chat through running Vue interface and FastAPI; not mocked",
+  "model": "gpt-6-luna",
+  "provider_endpoint": "POST https://api.openai.com/v1/responses",
+  "database": "data/app.sqlite3",
+  "inspection_access": "read-only",
+  "fictional_question": "Fictional Part 3.2 verification: How does Stop work in this app?",
+  "request_id": "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e",
+  "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+  "messages": [
+    {
+      "id": "70159e8f-5fd5-4559-a7f1-852bd8845f96",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e",
+      "role": "user",
+      "content": "Fictional Part 3.2 verification: How does Stop work in this app?",
+      "created_at": "2026-10-27T01:56:41.382538+00:00",
+      "status": "succeeded",
+      "source": "live"
+    },
+    {
+      "id": "75934b64-cc7f-48a1-9d62-e94428e994ae",
+      "conversation_id": "e2af5dcb-1bda-48b1-bbdc-bb725850e2d1",
+      "request_id": "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e",
+      "role": "assistant",
+      "content": "Start begins the exercise. Stop ends it immediately. Repeat starts a new session only when you choose it.",
+      "created_at": "2026-10-27T01:56:46.559882+00:00",
+      "status": "succeeded",
+      "source": "live"
+    }
+  ],
+  "retrieval": {
+    "request_id": "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e",
+    "proposed_sql": "SELECT role, content FROM messages WHERE conversation_id = ? AND status = 'succeeded' ORDER BY created_at DESC LIMIT 4",
+    "status": "accepted",
+    "row_count": 2
+  },
+  "provider_call_reservations_during_exchange": [
+    {
+      "id": "ce5dd752-4355-43f6-821e-ff1515e0f8ab",
+      "host_session": "2b89e794-7616-4049-9224-a762c5fd1598",
+      "created_at": "2026-10-27T01:56:41.384331+00:00",
+      "purpose": "retrieval"
+    },
+    {
+      "id": "84e03c72-9111-45ce-b2cf-d60afc1a20ef",
+      "host_session": "2b89e794-7616-4049-9224-a762c5fd1598",
+      "created_at": "2026-10-27T01:56:44.770934+00:00",
+      "purpose": "answer"
+    }
+  ],
+  "assertions": {
+    "two_messages_saved": true,
+    "roles_user_and_assistant": true,
+    "matching_request_and_conversation_ids": true,
+    "both_succeeded_and_live": true,
+    "accepted_readonly_retrieval": true,
+    "one_retrieval_and_one_answer_reservation": true,
+    "api_history_equals_sqlite": true,
+    "same_messages_after_application_restart": true,
+    "routine_text_mode_restored_to_mock": true,
+    "voice_duration_remains_300": true
+  },
+  "host_limit": 4,
+  "private_credentials_in_evidence": false,
+  "persistence_rechecked_at_local": "2026-10-26T22:04:00.913261-04:00",
+  "inspection_sql": {
+    "messages": "SELECT * FROM messages WHERE request_id = ? ORDER BY created_at",
+    "retrieval": "SELECT * FROM retrievals WHERE request_id = ?",
+    "parameters": [
+      "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e"
+    ]
+  }
+}
