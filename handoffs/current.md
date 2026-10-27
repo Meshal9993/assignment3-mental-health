@@ -81,3 +81,9 @@ matched local bytes, and selected read-only SQLite records still matched the
 evidence. See `docs/evidence/part3-2-report-review.json`. Existing test results
 were reviewed, not rerun. No application change, installation or model call.
 The user uploads report.md to Canvas; no Canvas action is authorized.
+
+Latest instruction: delete AI-USE.md locally and do not push. Removed that file
+and its link from the local report. These changes are intentionally uncommitted
+and unpublished. Do not restore the file or commit/push these changes without
+new authorization. GitHub and the existing submission tag still contain the
+previously published version; local report.md now differs from that snapshot.

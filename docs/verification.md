@@ -584,3 +584,4 @@ commit without embedding a circular self-hash. Only the existing `part3-2`
 branch is used. Earlier local history is preserved in ignored
 `work/part3-2-before-report.bundle`; main is not a push target. Canvas submission
 is left to the user. This is Part 3.2 documentation work only.
+
