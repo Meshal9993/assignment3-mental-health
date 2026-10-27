@@ -129,3 +129,10 @@ records read-only and compared API history. Recorded results in verification,
 handoff and publication evidence. No additional model call or application-code
 change occurred. Local and remote report content and original history remain
 unchanged. Part 3.3 and the user's report writing remain outside this task.
+
+Evidence update: inspected the two supplied images, confirmed the exam-stress
+exchange was fictional with the user, copied that PNG without editing it, and
+removed the selected model-failure screenshot. Updated verification/handoff
+references while retaining the matching original Stop-question SQLite proof.
+No generated replacement image, application-code change, paid call or report
+edit was involved.

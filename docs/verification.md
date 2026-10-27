@@ -60,7 +60,8 @@ small repeated live selection.
   control explanation, labeled `mock · succeeded`. SQLite stored both messages.
 - Sent `Fictional demo: introduce this exercise` with failure simulation. The
   browser showed `static_fallback · failed` and left Start/support available.
-  [Failure screenshot](evidence/model-failure.png).
+  The failure result is retained in the SQLite inspection JSON and test logs;
+  its screenshot was later removed at the user's request.
 - Opened Crisis / Support after failure. Then actually stopped the backend,
   loaded the frontend, observed disabled Start and a Reconnect message, and
   opened the support dialog. [Backend-off support screenshot](evidence/support-backend-off.png).
@@ -535,3 +536,19 @@ identical to remote main. Neither report was changed. The original local
 working branch/history remains intact. A follow-up documentation commit records
 these completed checks; the app code and runtime evidence are unchanged.
 Part 3.3 and writing the submission report remain outside this task.
+
+### User-selected screenshot update — October 26, 2026
+
+Added the user's [fictional exam-stress live-chat screenshot](evidence/part3-2-live-exam-chat.png)
+unchanged from the supplied PNG. The user explicitly confirmed this was a
+fictional test. The image shows the submitted exam-stress message, the app's
+reviewed breathing introduction, and live/succeeded badges. It is additional
+browser evidence; the existing Stop-question screenshot and its matching
+SQLite JSON remain the original persistence proof. No new model request was
+made to create this supplied image.
+
+Removed `docs/evidence/model-failure.png` at the user's request and replaced
+its relative link above. The earlier SHA-pinned publication-check JSON remains
+a historical record of URLs checked before removal. Failure behavior remains
+documented by existing test logs and SQLite evidence. No application code or
+report content changed.

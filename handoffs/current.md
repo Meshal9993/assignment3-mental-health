@@ -58,3 +58,11 @@ branch/history remains intact. Publication uses the separate
 ancestor. A documentation-only follow-up records the successful checks. Use
 `git ls-remote origin refs/heads/part3-2` for its final hash. The user writes
 the submission report. Do not start Part 3.3 or another paid test.
+
+User-selected evidence update: added the supplied
+`docs/evidence/part3-2-live-exam-chat.png` after explicit confirmation that its
+exam-stress exchange was fictional. Removed `model-failure.png` as requested
+and updated its relative verification link. The original Stop exchange's
+screenshot/SQLite proof and failure test/database records are retained.
+Historical SHA-pinned URL-check evidence describes the earlier snapshot.
+No app code, paid call, or report change was needed.
