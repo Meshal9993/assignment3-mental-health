@@ -1,0 +1,282 @@
+{
+  "milestone": "Part 3.2",
+  "checked_at_local": "2026-10-26T22:23:24.002196-04:00",
+  "published_application_commit": "24d4b502520c9abb4e5c4606d3aa923340e3d587",
+  "branch": "part3-2",
+  "public_checks_authentication": "none; no Authorization or Cookie headers",
+  "public_url_checks": [
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health",
+      "bytes": 262560
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/tree/part3-2",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/tree/part3-2",
+      "bytes": 316854
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/commit/24d4b502520c9abb4e5c4606d3aa923340e3d587",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/commit/24d4b502520c9abb4e5c4606d3aa923340e3d587",
+      "bytes": 609251
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/README.md",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/README.md",
+      "bytes": 308338
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/README.md",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/README.md",
+      "bytes": 15625,
+      "path": "README.md",
+      "matches_local_file": true,
+      "sha256": "59d3a6b7eb44c5d8f4b80855496eefa8ee4c18a7651c64ed345df9c9ccfed7ea"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/design-pipeline.md",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/design-pipeline.md",
+      "bytes": 313587
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/design-pipeline.md",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/design-pipeline.md",
+      "bytes": 15368,
+      "path": "docs/design-pipeline.md",
+      "matches_local_file": true,
+      "sha256": "c5d60f7769640659f24e4023a9fdd1d261bcc579e6d28f3c495220022c6e9c38"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/verification.md",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/verification.md",
+      "bytes": 391413
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/verification.md",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/verification.md",
+      "bytes": 32467,
+      "path": "docs/verification.md",
+      "matches_local_file": true,
+      "sha256": "c086a598e8653ae493394e6fc425d6720b9a93d19c959749ee1fcb342c0dabab"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/demo-guide.md",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/demo-guide.md",
+      "bytes": 248439
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/demo-guide.md",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/demo-guide.md",
+      "bytes": 7434,
+      "path": "docs/demo-guide.md",
+      "matches_local_file": true,
+      "sha256": "f797e0241f4f0376de814d74667964de9683a7ee3478a53a12e7b251d2d05502"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-sqlite.json",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-sqlite.json",
+      "bytes": 257987
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-sqlite.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-sqlite.json",
+      "bytes": 3005,
+      "path": "docs/evidence/part3-2-live-text-sqlite.json",
+      "matches_local_file": true,
+      "sha256": "8b6ea84ab76c3a91d5a3734b9f15c84e5db2f7aed0fb71b1ec855ba41050ee1b"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-chat.jpg",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-chat.jpg",
+      "bytes": 211524
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-chat.jpg",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-text-chat.jpg",
+      "bytes": 13372,
+      "path": "docs/evidence/part3-2-live-text-chat.jpg",
+      "matches_local_file": true,
+      "sha256": "c4a8892e51ac165489a72aa2ee1b95f54fea343509c871aa074209b2d28687ef"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-sqlite.jpg",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-sqlite.jpg",
+      "bytes": 211923
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-sqlite.jpg",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-live-sqlite.jpg",
+      "bytes": 110486,
+      "path": "docs/evidence/part3-2-live-sqlite.jpg",
+      "matches_local_file": true,
+      "sha256": "ad41fb99252bc1b79369023034f575c79965669c3dd4ab8dab39f43c314c4373"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-backend-tests.txt",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-backend-tests.txt",
+      "bytes": 251025
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-backend-tests.txt",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-backend-tests.txt",
+      "bytes": 7375,
+      "path": "docs/evidence/part3-2-backend-tests.txt",
+      "matches_local_file": true,
+      "sha256": "9589d0c46523d5ee5242e0ba000bd577702156b9de9fbcf2e6c29aed79ee6917"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-voice-mocks.txt",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-voice-mocks.txt",
+      "bytes": 236333
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-voice-mocks.txt",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-voice-mocks.txt",
+      "bytes": 2856,
+      "path": "docs/evidence/part3-2-voice-mocks.txt",
+      "matches_local_file": true,
+      "sha256": "aaeafd6776889fcd9eb744157fd2c4f2562a45fcf0cd0195f7c8afca72086f8b"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-browser-mocks.txt",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-browser-mocks.txt",
+      "bytes": 223155
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-browser-mocks.txt",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-browser-mocks.txt",
+      "bytes": 674,
+      "path": "docs/evidence/part3-2-browser-mocks.txt",
+      "matches_local_file": true,
+      "sha256": "02c754ce0350368e0521ac5390d5bf4ee8cc472e36caa5fb353084a3d1ed2304"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-frontend-build.txt",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-frontend-build.txt",
+      "bytes": 221573
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-frontend-build.txt",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/part3-2-frontend-build.txt",
+      "bytes": 360,
+      "path": "docs/evidence/part3-2-frontend-build.txt",
+      "matches_local_file": true,
+      "sha256": "810de2356782a27233b50c28362fe13ec9c591f41bc85f496ab839f91e889b62"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/database-inspection.json",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/database-inspection.json",
+      "bytes": 289028
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/database-inspection.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/database-inspection.json",
+      "bytes": 4837,
+      "path": "docs/evidence/database-inspection.json",
+      "matches_local_file": true,
+      "sha256": "c468c4604feba982d8fee777841137321bf395dd1ca4a2db50724209deef2931"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/completed-exercise.png",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/completed-exercise.png",
+      "bytes": 211420
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/completed-exercise.png",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/completed-exercise.png",
+      "bytes": 26573,
+      "path": "docs/evidence/completed-exercise.png",
+      "matches_local_file": true,
+      "sha256": "ec713c9aeaf015752e28f86223481ec9511ef8695aa0857ca53fe287d8afbdeb"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/model-failure.png",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/model-failure.png",
+      "bytes": 211732
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/model-failure.png",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/model-failure.png",
+      "bytes": 32295,
+      "path": "docs/evidence/model-failure.png",
+      "matches_local_file": true,
+      "sha256": "41e13d65e349f41552d3646d782e34837398da33d5eea7297897d0f9d08d4231"
+    },
+    {
+      "url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/support-backend-off.png",
+      "http_status": 200,
+      "final_url": "https://github.com/Meshal9993/assignment3-mental-health/blob/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/support-backend-off.png",
+      "bytes": 211584
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/support-backend-off.png",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/Meshal9993/assignment3-mental-health/24d4b502520c9abb4e5c4606d3aa923340e3d587/docs/evidence/support-backend-off.png",
+      "bytes": 49375,
+      "path": "docs/evidence/support-backend-off.png",
+      "matches_local_file": true,
+      "sha256": "5fe0ae7566a65d0e2e88ce68abc57cd1e751fbe8470d77031f4616dad426b8da"
+    }
+  ],
+  "sqlite_recheck": {
+    "access": "mode=ro and PRAGMA query_only=ON",
+    "request_id": "ebe388b7-ffa5-40ee-b9b9-b9592c018b0e",
+    "actual_messages_equal_published_evidence": true,
+    "retrieval_equal_published_evidence": true,
+    "two_provider_reservations_equal_published_evidence": true,
+    "seven_exercise_session_records_equal_previous_evidence": true,
+    "completed_session_server_ms": 60014,
+    "completed_session_browser_ms": 60001,
+    "api_checks": {
+      "health": {
+        "http_status": 200,
+        "model_mode": "mock"
+      },
+      "history": {
+        "http_status": 200,
+        "selected_request_matches_sqlite": true
+      },
+      "voice_config": {
+        "http_status": 200,
+        "duration_seconds": 300
+      }
+    }
+  },
+  "report_preservation": {
+    "local_report_sha256_unchanged": true,
+    "remote_report_blob_unchanged": true,
+    "no_report_change_in_publication_commit": true
+  },
+  "new_provider_calls": 0
+}

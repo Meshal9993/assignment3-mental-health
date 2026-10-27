@@ -495,13 +495,43 @@ and a full Part 3.3 evaluation are outside this evidence claim. Publication
 checks will be recorded after the GitHub upload; local and remote `report.md`
 must remain unchanged throughout.
 
-Publication preflight: the repository is public and the connected account owns
-it, but integration write access is missing (Git blob creation returned HTTP
-403 Resource not accessible by integration). Git CLI and macOS Keychain have
-no GitHub credential, and no SSH identity is available. Browser access to the
-public repository succeeds without sign-in. The intended Part 3.2 branch and
-evidence are not yet uploaded; do not claim their public links passed until
-authentication and push complete. The user selected local Git authentication.
-Prepared a remote-main-based publication commit retaining the existing remote
-report blob; the local report is preserved byte-for-byte and is excluded from
-all new commits. The earlier archive-based local history remains recoverable.
+Initial publication preflight found missing authentication: integration blob
+creation returned HTTP 403, and Git had no saved credential. The user then
+authenticated existing Git locally and successfully pushed `part3-2`.
+
+### Publication and persistence recheck — October 26, 2026
+
+`git ls-remote --heads https://github.com/Meshal9993/assignment3-mental-health.git refs/heads/part3-2 refs/heads/main`
+confirmed the published application/evidence commit
+`24d4b502520c9abb4e5c4606d3aa923340e3d587` on `part3-2`, with the original
+main commit `2773f8555f788d2bcc1792efe899b76f4b22d7bc` retained. The connected
+GitHub branch API independently returned the same Part 3.2 SHA.
+
+Python standard-library HTTP requests with no Authorization or Cookie headers
+returned **HTTP 200 for 33 public URLs**: repository, branch, commit, and HTML/raw
+links for 15 documentation/evidence files. All 15 downloaded raw files matched
+their local bytes. This includes the two live screenshots, live SQLite JSON,
+four latest check logs, completed exercise, failure, independent support and
+earlier session evidence. See the exact URLs, hashes, timestamps and results in
+[publication check evidence](evidence/part3-2-publication-check.json).
+
+Reopened `data/app.sqlite3` using `mode=ro` and `PRAGMA query_only=ON`.
+`SELECT * FROM messages WHERE request_id=? ORDER BY created_at`, bound only to
+`ebe388b7-ffa5-40ee-b9b9-b9592c018b0e`, returned the same two live/succeeded
+messages as the published JSON. Its retrieval record and two selected provider
+reservation IDs also matched. The seven previously exported exercise-session
+rows still matched, including completion at 60.014 s server / 60.001 s browser,
+stopped and interrupted results.
+
+Read-only GETs to `/api/health`, `/api/conversations/{cid}` and
+`/api/voice/config` returned 200. The selected request in history matched SQLite,
+routine Text Chat remained mock, and voice duration remained 300 seconds. No
+new provider request, microphone use or test of a real person occurred.
+
+The local report SHA-256 remains
+`85f126e8c390cfc3d9278eee92c4bb0d10f8c0085d20017be9bf8e3e6af17c70`.
+The published report blob remains `04f03a147649ded9fdb7837e96e00847beb71261`,
+identical to remote main. Neither report was changed. The original local
+working branch/history remains intact. A follow-up documentation commit records
+these completed checks; the app code and runtime evidence are unchanged.
+Part 3.3 and writing the submission report remain outside this task.

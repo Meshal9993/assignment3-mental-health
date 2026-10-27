@@ -118,10 +118,14 @@ production build. No production-code, dependency, credential, voice-model or
 300-second duration change was needed. Publication preserves the existing
 remote report and main-branch history.
 
-Publication access finding: GitHub repository metadata confirms the account's
-push permission, but creating a Git blob through the integration returned 403
-Resource not accessible by integration. Standard Git/Keychain dry runs found
-no stored authentication; no SSH identities exist. Prepared a normal Git
-publication commit based on existing remote main, preserving its report blob,
-and left the original working branch and local history intact. The user selected local Git
-authentication; final push awaits that sign-in. No report content was changed.
+Publication access finding: integration blob creation returned 403 despite the
+account's repository push permission. Git initially had no stored credential.
+The user authenticated existing Git locally and pushed the prepared publication
+branch; no Homebrew or GitHub CLI was installed. Git ls-remote and the connected
+GitHub branch API confirmed the published SHA. Anonymous standard-library HTTP
+checks verified 33 public URLs and compared 15 raw downloads with local files.
+Reinspected only the selected fictional SQLite request and previous exercise
+records read-only and compared API history. Recorded results in verification,
+handoff and publication evidence. No additional model call or application-code
+change occurred. Local and remote report content and original history remain
+unchanged. Part 3.3 and the user's report writing remain outside this task.

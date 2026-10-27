@@ -42,15 +42,19 @@ cancellation through a close-only sideband. Audio/transcripts are not stored.
 Real voice, sideband billing/closure, hard process loss and total delegated-call
 accounting remain unverified and are outside the chosen Part 3.2 text scope.
 
-Publication preflight: account owns this public repository, but the integration
-cannot write Git objects (403 Resource not accessible by integration). Git CLI
-and Keychain have no credential and no SSH identity exists. The user selected
-local Git authentication; sign-in is still needed before push. Prepared a normal
-Git publication commit based on existing remote main, preserving the
-remote report blob. Local report bytes remain unchanged and are intentionally
-left outside the publication commit; do not stage, edit, restore, or delete it.
-The original working branch and local history remain intact. The publication
-ref is `codex/part3-2-publication`; push it to remote `part3-2` normally (no force)
-after authentication, then verify the branch, commit and evidence
-URLs publicly and report the final hash. Never claim a local-only commit was
-published. The report and Part 3.3 remain the user's separate work.
+Publication complete: the user authenticated existing Git locally and pushed
+`codex/part3-2-publication` to public remote branch `part3-2`. Git ls-remote and
+the GitHub branch API both confirmed application/evidence commit
+`24d4b502520c9abb4e5c4606d3aa923340e3d587`. Anonymous HTTP checks passed for
+33 repository/evidence URLs; 15 raw downloads matched local bytes. SQLite
+read-only reinspection and the history API still matched the fictional live
+request; all seven earlier exercise records matched their evidence. Results:
+`docs/evidence/part3-2-publication-check.json` and `docs/verification.md`.
+
+Local report bytes and the report blob on remote main/Part 3.2 are unchanged;
+do not stage, edit, restore, or delete the user's report. The original working
+branch/history remains intact. Publication uses the separate
+`codex/part3-2-publication` ref and normal pushes, retaining remote main as
+ancestor. A documentation-only follow-up records the successful checks. Use
+`git ls-remote origin refs/heads/part3-2` for its final hash. The user writes
+the submission report. Do not start Part 3.3 or another paid test.
